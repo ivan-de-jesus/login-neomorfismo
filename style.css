@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    color: #555;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ecf0f3;
+}
+
+.login-div{
+    width: 330px;
+    height: 600px;
+  
+
+    border-radius: 40px;
+    background: #ecf0f3;
+    box-shadow:  8px 8px 25px #b1b4b6, 
+                 -8px -8px 25px #ffffff;
+    padding: 50px 35px 35px 35px;
+
+}
+
+.logo{
+    background: url(yo3.png);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 7px #5f5f5f, 0px 0px 0px 5px #ecf0f3,
+    10px 10px 20px #a7aaaf, -10px -10px 20px #ffffff ;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing:0.5px;
+    padding-top: 24px;
+}
+
+.subtitulo{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 7px;
+    letter-spacing:3px;
+}
+
+.campos{
+    margin: 60px;
+}
+
+.usuario,.contraseña{
+    margin-bottom: 30px;
+    border-radius: 40px;
+background: #ecf0f3;
+box-shadow: inset 8px 8px 25px #b1b4b6, 
+            inset -8px -8px 25px #ffffff;
+}
+
+input{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 14px;
+    margin: 20px 10px;
+}
+
+svg{
+    height: 20px;
+    margin: 2px 15px -5px 15px;
+}
+
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 43px;
+background: #101214;
+box-shadow:  10px 10px 27px #b1b1b1, 
+             -10px -10px 27px #ffffff;
+transition: 0.5s;
+}
+
+button:hover{
+    background: #646464;
+}
+button:active{
+    background: #000000;
+}
+.link{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.link a{
+    text-decoration: none;
+    columns: #a7aaa7; 
+    font-size: 15px;
+}
+
+
+@media screen and (max-width:600px){
+    .login-div{
+        width: 318px;
+        height: 490px;   
+    }
+    .logo{
+        width: 60px;
+        height: 60px;
+        
+    }
+    .titulo{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing:0.5px;
+        padding-top: 24px;
+    }
+    .subtitulo{
+        
+        font-size: 10px;
+        margin-top: 7px;
+        letter-spacing:3px;
+    }
+    input{
+       
+        font-size: 10px;
+        margin: 18px 5px;
+    }
+    button{
+       
+        width: 100%;
+        height: 45px;
+        font-size: 15px;
+        
+    }
+   
+    
+    
+    svg{
+        height: 12px;
+        margin: 2px 15px -5px 15px;
+    }
+
+    .link{
+        padding-top: 13px;
+        text-align: center;
+    }
+    
+    .link a{
+        text-decoration: none;
+        columns: #a7aaa7; 
+        font-size: 11px;
+    }
+    
+    
+}
